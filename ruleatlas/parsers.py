@@ -45,8 +45,12 @@ def base(source, path, commit, title, logic, *, data=None, language="Sigma", kin
 
 def parse_file(source, root, file, commit="", *, original_path=None, companions=None):
     root, file = Path(root).resolve(), Path(file)
-    if file.is_symlink() or not file.resolve().is_relative_to(root):
+    resolved_file = file.resolve()
+    if file.is_symlink() or not resolved_file.is_relative_to(root):
         raise ValueError("Symlinks and paths outside source are not imported")
+    # Use the same canonical spelling for containment and relative paths. Windows
+    # short names and macOS temporary-directory aliases can resolve differently.
+    file = resolved_file
     if file.stat().st_size > MAX_FILE:
         raise ValueError("File exceeds 2 MiB limit")
     text = file.read_text(encoding="utf-8-sig")

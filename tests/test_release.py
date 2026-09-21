@@ -25,6 +25,27 @@ class ReleaseTests(unittest.TestCase):
     def parse(self,content,adapter='sigma',**extra):
         file=self.root/('rule.xml' if adapter=='wazuh' else 'rule.yml');file.write_text(content)
         return parse_file({**self.source,'adapter':adapter,**extra},self.root,file,'a'*40)
+    def test_canonical_path_for_relative_file_and_absolute_root(self):
+        # Keep both paths on the same drive on Windows, without changing cwd.
+        with tempfile.TemporaryDirectory(dir=Path.cwd()) as directory:
+            root = Path(directory)
+            file = root / 'rule.yml'
+            file.write_text('title: Relative path\ndetection: {selection: {Image: test}, condition: selection}\n', encoding='utf-8')
+            relative_file = Path(os.path.relpath(file))
+            row = parse_file(self.source, root, relative_file, 'a'*40)[0]
+            self.assertEqual(row['path'], 'rule.yml')
+            self.assertTrue(row['source_url'].endswith('/'+'a'*40+'/rule.yml'))
+    def test_canonical_path_for_parent_components_preserves_original_path(self):
+        root = self.root.resolve()
+        (root / 'nested').mkdir()
+        file = root / 'rule.yml'
+        file.write_text('title: Canonical path\ndetection: {selection: {Image: test}, condition: selection}\n', encoding='utf-8')
+        alias = root / 'nested' / '..' / 'rule.yml'
+        row = parse_file(self.source, root, alias, 'a'*40)[0]
+        self.assertEqual(row['path'], 'rule.yml')
+        row = parse_file(self.source, root, alias, 'a'*40, original_path='rules/question?.yml')[0]
+        self.assertEqual(row['path'], 'rules/question?.yml')
+        self.assertTrue(row['source_url'].endswith('/rules/question%3F.yml'))
     def test_malformed_yaml_is_explicit_reference_only_when_configured(self):
         content='title: Broken\ndetection:\n  selection: [unterminated'
         with self.assertRaises(Exception):self.parse(content)
