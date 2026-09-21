@@ -1,0 +1,16 @@
+{
+  "source_id": "falco",
+  "status": "indexed",
+  "count": 95,
+  "candidate_files": 3,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "e822409d8a2a28c9719f56ace66e8cadebfd2bc3",
+  "last_success": "2026-09-21T10:52:48.133256+00:00",
+  "last_attempt": "2026-09-21T10:52:48.133318+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

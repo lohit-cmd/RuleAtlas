@@ -1,0 +1,16 @@
+{
+  "source_id": "elastic",
+  "status": "indexed",
+  "count": 2247,
+  "candidate_files": 2247,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "c66b12c9493f4bf1121a59b8c705da894ff380e8",
+  "last_success": "2026-09-21T10:49:55.762999+00:00",
+  "last_attempt": "2026-09-21T10:49:55.763010+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

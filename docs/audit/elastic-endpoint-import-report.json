@@ -1,0 +1,16 @@
+{
+  "source_id": "elastic-endpoint",
+  "status": "indexed",
+  "count": 1327,
+  "candidate_files": 1327,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "ce99f77ba7cc2e442589d49e01b9db262d31ae91",
+  "last_success": "2026-09-21T10:52:20.604470+00:00",
+  "last_attempt": "2026-09-21T10:52:20.604484+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

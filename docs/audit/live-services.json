@@ -1,0 +1,31 @@
+{
+  "enterprise-19.1": {
+    "status": "passed",
+    "records": 873,
+    "version": "enterprise-19.1",
+    "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-19.1.json"
+  },
+  "mobile-18.1": {
+    "status": "passed",
+    "records": 190,
+    "version": "mobile-18.1",
+    "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack-18.1.json"
+  },
+  "ics-18.1": {
+    "status": "passed",
+    "records": 95,
+    "version": "ics-18.1",
+    "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack-18.1.json"
+  },
+  "enterprise-18.1": {
+    "status": "passed",
+    "records": 849,
+    "version": "enterprise-18.1",
+    "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-18.1.json"
+  },
+  "discovery": {
+    "status": "passed",
+    "returned": 23,
+    "incomplete": false
+  }
+}

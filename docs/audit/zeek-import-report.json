@@ -1,0 +1,16 @@
+{
+  "source_id": "zeek",
+  "status": "indexed",
+  "count": 157,
+  "candidate_files": 157,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "7061894b1a266c052acafa307dfeeb35acd73b45",
+  "last_success": "2026-09-21T10:53:17.127423+00:00",
+  "last_attempt": "2026-09-21T10:53:17.127438+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

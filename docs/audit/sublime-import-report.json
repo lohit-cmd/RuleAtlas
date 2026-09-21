@@ -1,0 +1,16 @@
+{
+  "source_id": "sublime",
+  "status": "indexed",
+  "count": 1284,
+  "candidate_files": 1284,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "1a4de55cd279f5630ea287d116cb556d5316dd89",
+  "last_success": "2026-09-21T10:51:30.077993+00:00",
+  "last_attempt": "2026-09-21T10:51:30.078009+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

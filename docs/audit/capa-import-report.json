@@ -1,0 +1,24 @@
+{
+  "source_id": "capa",
+  "status": "indexed",
+  "count": 1054,
+  "candidate_files": 1057,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 3,
+  "skipped_file_examples": [
+    ".github/workflows/release.yml",
+    ".github/workflows/sync.yml",
+    ".github/workflows/tests.yml"
+  ],
+  "commit": "805f9eaccfb6a4e1ddffc809d71d1e2b5ccc15e5",
+  "last_success": "2026-09-21T10:54:16.901754+00:00",
+  "last_attempt": "2026-09-21T10:54:16.901769+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": [
+    ".github/workflows/release.yml",
+    ".github/workflows/sync.yml",
+    ".github/workflows/tests.yml"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source_id": "reversinglabs",
+  "status": "indexed",
+  "count": 310,
+  "candidate_files": 310,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "e0a0be54aa1e11ccfd6854e4f19e9476f328fd84",
+  "last_success": "2026-09-21T10:53:48.531372+00:00",
+  "last_attempt": "2026-09-21T10:53:48.531386+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

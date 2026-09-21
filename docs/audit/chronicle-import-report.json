@@ -1,0 +1,16 @@
+{
+  "source_id": "chronicle",
+  "status": "indexed",
+  "count": 917,
+  "candidate_files": 917,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "234e9223c3b8f3d1c30209d9663797ba69057533",
+  "last_success": "2026-09-21T10:50:27.362131+00:00",
+  "last_attempt": "2026-09-21T10:50:27.362146+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

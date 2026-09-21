@@ -1,0 +1,1246 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "sigma",
+      "name": "SigmaHQ",
+      "repo": "SigmaHQ/sigma",
+      "adapter": "sigma",
+      "patterns": [
+        "rules/*.yml",
+        "rules-emerging-threats/*.yml",
+        "rules-threat-hunting/*.yml",
+        "rules-compliance/*.yml",
+        "rules-correlation/*.yml"
+      ],
+      "category": "community",
+      "notes": "Broad Sigma detection content",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/SigmaHQ/sigma"
+          ]
+        },
+        "community_adoption": {
+          "status": "evidence_recorded",
+          "evidence": [
+            "https://docs.securityonion.net/en/2.4/sigma.html"
+          ],
+          "note": "Security Onion documents using Sigma rules and custom repositories."
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/SigmaHQ/sigma"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "splunk",
+      "name": "Splunk Security Content",
+      "repo": "splunk/security_content",
+      "adapter": "splunk",
+      "patterns": [
+        "detections/*.yml"
+      ],
+      "category": "vendor",
+      "notes": "SPL detections; runtime macros require review",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/splunk/security_content"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/splunk/security_content"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "elastic",
+      "name": "Elastic Security",
+      "repo": "elastic/detection-rules",
+      "adapter": "elastic",
+      "patterns": [
+        "rules/*.toml",
+        "rules_building_block/*.toml"
+      ],
+      "category": "vendor",
+      "notes": "Elastic detection engine rules",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/elastic/detection-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/elastic/detection-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "sentinel",
+      "name": "Microsoft Sentinel",
+      "repo": "Azure/Azure-Sentinel",
+      "adapter": "sentinel",
+      "patterns": [
+        "Detections/*.yaml",
+        "Detections/*.yml",
+        "Solutions/*/Analytic Rules/*.yaml",
+        "Solutions/*/Analytic Rules/*.yml",
+        "Solutions/*/Hunting Queries/*.yaml",
+        "Hunting Queries/*.yaml"
+      ],
+      "category": "vendor",
+      "notes": "Analytics and hunting queries. Full repository download can be several GiB; selected-files HTTPS uses less bandwidth but is slower. Only configured rule paths are extracted.",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/Azure/Azure-Sentinel"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/Azure/Azure-Sentinel"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      },
+      "download_strategy": "archive",
+      "archive_max_mib": 4096
+    },
+    {
+      "id": "chronicle",
+      "name": "Google SecOps",
+      "repo": "chronicle/detection-rules",
+      "adapter": "yaral",
+      "patterns": [
+        "rules/*.yaral",
+        "rules/*.yara",
+        "rules/*.yar"
+      ],
+      "category": "vendor-community",
+      "notes": "Community and example YARA-L; not the entire commercial catalog",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/chronicle/detection-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "evidence_recorded",
+          "evidence": [
+            "https://security.googlecloudcommunity.com/community-blog-42/community-driven-detection-content-for-google-secops-3952"
+          ],
+          "note": "Google security community describes contributions to this repository."
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/chronicle/detection-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "gcp-analytics",
+      "name": "Google Community Security Analytics",
+      "repo": "GoogleCloudPlatform/security-analytics",
+      "adapter": "yaral",
+      "patterns": [
+        "backends/chronicle/yaral/*.yaral"
+      ],
+      "category": "vendor-community",
+      "notes": "YARA-L subset; SQL auditing content is not ingested by this adapter",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/GoogleCloudPlatform/security-analytics"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/GoogleCloudPlatform/security-analytics"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "panther",
+      "name": "Panther",
+      "repo": "panther-labs/panther-analysis",
+      "adapter": "panther",
+      "patterns": [
+        "rules/*.yml",
+        "rules/*.yaml",
+        "policies/*.yml",
+        "policies/*.yaml",
+        "correlation_rules/*.yml"
+      ],
+      "category": "vendor",
+      "notes": "Python logic is parsed as text; never executed",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/panther-labs/panther-analysis"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/panther-labs/panther-analysis"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "sekoia",
+      "name": "Sekoia Community",
+      "repo": "SEKOIA-IO/Community",
+      "adapter": "sigma",
+      "patterns": [
+        "sigma_rules/*.yml",
+        "sigma_rules/*.yaml"
+      ],
+      "category": "vendor-community",
+      "notes": "Only compatible Sigma schemas are extracted",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/SEKOIA-IO/Community"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/SEKOIA-IO/Community"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "sublime",
+      "name": "Sublime Security",
+      "repo": "sublime-security/sublime-rules",
+      "adapter": "sublime",
+      "patterns": [
+        "detection-rules/*.yml",
+        "discovery-rules/*.yml"
+      ],
+      "category": "vendor",
+      "notes": "Email threat detection and discovery",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/sublime-security/sublime-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/sublime-security/sublime-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "ctid-cloud",
+      "name": "CTID Cloud Analytics",
+      "repo": "center-for-threat-informed-defense/cloud-analytics",
+      "adapter": "sigma",
+      "patterns": [
+        "analytics/*.yml",
+        "analytics/*.yaml"
+      ],
+      "category": "institution",
+      "notes": "Cloud behavioral analytics from a research project",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/center-for-threat-informed-defense/cloud-analytics"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/center-for-threat-informed-defense/cloud-analytics"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "bertjan",
+      "name": "Bert-Jan KQL",
+      "repo": "Bert-JanP/Hunting-Queries-Detection-Rules",
+      "adapter": "kql_markdown",
+      "patterns": [
+        "*.md",
+        "*.kql",
+        "*.csl"
+      ],
+      "category": "researcher",
+      "notes": "Code blocks are query candidates; review before deployment",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "reprise99",
+      "name": "reprise99 KQL",
+      "repo": "reprise99/Sentinel-Queries",
+      "adapter": "kql_markdown",
+      "patterns": [
+        "*.md",
+        "*.kql",
+        "*.csl"
+      ],
+      "category": "researcher",
+      "notes": "Community queries; author context remains attached",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/reprise99/Sentinel-Queries"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/reprise99/Sentinel-Queries"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "hayabusa",
+      "name": "Yamato Security",
+      "repo": "Yamato-Security/hayabusa-rules",
+      "adapter": "sigma",
+      "patterns": [
+        "hayabusa/*.yml",
+        "sigma/*.yml"
+      ],
+      "category": "community",
+      "notes": "Sigma adaptations; retain upstream lineage",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/Yamato-Security/hayabusa-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "evidence_recorded",
+          "evidence": [
+            "https://github.com/Yamato-Security/hayabusa-rules"
+          ],
+          "note": "README documents use by Hayabusa and Velociraptor."
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/Yamato-Security/hayabusa-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "elastic-endpoint",
+      "name": "Elastic Endpoint",
+      "repo": "elastic/protections-artifacts",
+      "adapter": "elastic",
+      "patterns": [
+        "behavior/rules/*.toml"
+      ],
+      "category": "vendor",
+      "notes": "Behavior-rule subset; other endpoint artifacts have separate formats",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/elastic/protections-artifacts"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/elastic/protections-artifacts"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "falco",
+      "name": "Falco",
+      "repo": "falcosecurity/rules",
+      "adapter": "falco",
+      "patterns": [
+        "rules/*.yaml"
+      ],
+      "category": "community",
+      "notes": "Container and runtime detections",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/falcosecurity/rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/falcosecurity/rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "tracee",
+      "name": "Aqua Tracee",
+      "repo": "aquasecurity/tracee",
+      "adapter": "code",
+      "patterns": [
+        "signatures/golang/*.go",
+        "detectors/*.go"
+      ],
+      "category": "vendor-community",
+      "notes": "Indexed as source references, not deployable normalized rules",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/aquasecurity/tracee"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/aquasecurity/tracee"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "wazuh",
+      "name": "Wazuh",
+      "repo": "wazuh/wazuh",
+      "adapter": "wazuh",
+      "patterns": [
+        "ruleset/rules/*.xml"
+      ],
+      "category": "vendor-community",
+      "notes": "Wazuh 4.x XML rules pinned to v4.14.7; main uses a different format and is outside this adapter's scope.",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/wazuh/wazuh"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/wazuh/wazuh"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      },
+      "ref": "v4.14.7"
+    },
+    {
+      "id": "zeek",
+      "name": "Zeek",
+      "repo": "zeek/zeek",
+      "adapter": "code",
+      "patterns": [
+        "scripts/policy/*.zeek"
+      ],
+      "category": "community",
+      "notes": "Policy scripts may generate telemetry rather than alerts",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/zeek/zeek"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/zeek/zeek"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "elitewolf",
+      "name": "NSA ELITEWOLF",
+      "repo": "nsacyber/ELITEWOLF",
+      "adapter": "snort",
+      "patterns": [
+        "ELITEWOLF_SNORT_*.txt"
+      ],
+      "category": "institution",
+      "notes": "OT network monitoring signatures",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/nsacyber/ELITEWOLF"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/nsacyber/ELITEWOLF"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "signature-base",
+      "name": "Signature Base",
+      "repo": "Neo23x0/signature-base",
+      "adapter": "yara",
+      "patterns": [
+        "yara/*.yar",
+        "yara/*.yara"
+      ],
+      "category": "researcher",
+      "notes": "YARA files; IOC lists are excluded",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/Neo23x0/signature-base"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/Neo23x0/signature-base"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "reversinglabs",
+      "name": "ReversingLabs",
+      "repo": "reversinglabs/reversinglabs-yara-rules",
+      "adapter": "yara",
+      "patterns": [
+        "*.yar",
+        "*.yara"
+      ],
+      "category": "vendor",
+      "notes": "YARA file signatures",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/reversinglabs/reversinglabs-yara-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/reversinglabs/reversinglabs-yara-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "mandiant-countermeasures",
+      "name": "Mandiant Countermeasures",
+      "repo": "mandiant/red_team_tool_countermeasures",
+      "adapter": "yara",
+      "patterns": [
+        "rules/*.yar",
+        "rules/*.yara"
+      ],
+      "category": "vendor",
+      "notes": "YARA subset; consolidated copies and other engines excluded",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/mandiant/red_team_tool_countermeasures"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/mandiant/red_team_tool_countermeasures"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "capa",
+      "name": "Mandiant capa",
+      "repo": "mandiant/capa-rules",
+      "adapter": "capa",
+      "patterns": [
+        "*.yml",
+        "*.yaml"
+      ],
+      "category": "vendor-community",
+      "notes": "Program capabilities, not SIEM alerts",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/mandiant/capa-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/mandiant/capa-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "joe-security",
+      "name": "Joe Security",
+      "repo": "joesecurity/sigma-rules",
+      "adapter": "sigma",
+      "patterns": [
+        "*.yml",
+        "*.yaml"
+      ],
+      "category": "vendor",
+      "notes": "Community Sigma rules. Malformed YAML is retained verbatim as reference content and flagged; it is not treated as a parsed detection.",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/joesecurity/sigma-rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/joesecurity/sigma-rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      },
+      "malformed_yaml": "retain_reference"
+    },
+    {
+      "id": "dfir-yara",
+      "name": "The DFIR Report YARA",
+      "repo": "The-DFIR-Report/Yara-Rules",
+      "adapter": "yara",
+      "patterns": [
+        "*.yar",
+        "*.yara"
+      ],
+      "category": "researcher",
+      "notes": "Incident-research file signatures",
+      "reviewed_on": "2026-09-21",
+      "assessment": {
+        "ownership": {
+          "status": "evidence_recorded",
+          "note": "Identified upstream repository; this records source evidence, not a blanket quality endorsement.",
+          "evidence": [
+            "https://github.com/The-DFIR-Report/Yara-Rules"
+          ]
+        },
+        "community_adoption": {
+          "status": "needs_review",
+          "note": "Record integrations, upstream contributions or substantive technical discussions; stars alone do not establish credibility.",
+          "evidence": []
+        },
+        "engineering_quality": {
+          "status": "needs_review",
+          "note": "Inspect schema validation, tests, pull-request review and dependencies at the synced revision.",
+          "evidence": []
+        },
+        "maintenance": {
+          "status": "needs_review",
+          "note": "Inspect rule changes, unresolved defects, release/archive/migration state at the synced revision.",
+          "evidence": []
+        },
+        "traceability": {
+          "status": "evidence_recorded",
+          "note": "Original repository recorded. Ingestion adds paths and commit permalinks; review original licenses and lineage.",
+          "evidence": [
+            "https://github.com/The-DFIR-Report/Yara-Rules"
+          ]
+        },
+        "rule_validation": {
+          "status": "needs_review",
+          "note": "No upstream rules have been replay-tested by this project. Each imported record starts untested.",
+          "evidence": []
+        }
+      }
+    }
+  ]
+}

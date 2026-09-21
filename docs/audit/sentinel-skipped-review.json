@@ -1,0 +1,2089 @@
+{
+  "commit": "20c2848aa78467a4d6fd8a0af6e3c32aaf9578fe",
+  "files": [
+    {
+      "path": "Detections/ASimDNS/imDns_DomainEntity_DnsEvents.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ASimDNS/imDns_IPEntity_DnsEvents.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ASimFileEvent/SuspiciousAccessOfBECRelatedDocuments.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ASimNetworkSession/ExcessiveHTTPFailuresFromSource.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ASimNetworkSession/IPEntity_imNetworkSession.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ASimNetworkSession/PortScan.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ASimNetworkSession/PossibleBeaconingActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_ChangeToRDSDatabase.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_ChangeToVPC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_ClearStopChangeTrailLogs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_ConsoleLogonWithoutMFA.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_CredentialHijack.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_FullAdminPolicyAttachedToRolesUsersGroups.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_IngressEgressSecurityGroupChange.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/AWS_LoadBalancerSecGroupChange.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/NRT_AWS_ConsoleLogonWithoutMFA.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSCloudTrail/SuspiciousAccessOfBECRelatedDocumentsInAWSS3Buckets.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AWSGuardDuty/AWS_GuardDuty_template.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/ADFSDomainTrustMods.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/AccountCreatedDeletedByNonApprovedUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/AccountCreatedandDeletedinShortTimeframe.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/AccountElevatedtoNewRole.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/AdminPromoAfterRoleMgmtAppPermissionGrant.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/AuthenticationMethodChangedforPrivilegedAccount.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/AzureADRoleManagementPermissionGrant.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/BulkChangestoPrivilegedAccountPermissions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/CredentialAddedAfterAdminConsent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationAdded.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationDeleted.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationInboundCollaborationSettingsChanged.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationInboundDirectSettingsChanged.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationOutboundCollaborationSettingsChanged.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationOutboundDirectSettingsChanged.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/FirstAppOrServicePrincipalCredential.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/GuestAccountsAddedinAADGroupsOtherThanTheOnesSpecified.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/MailPermissionsAddedToApplication.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/MaliciousOAuthApp_O365AttackToolkit.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/MaliciousOAuthApp_PwnAuth.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/MultipleAdmin_membership_removals_from_NewAdmin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NRT_ADFSDomainTrustMods.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NRT_AuthenticationMethodsChangedforVIPUsers.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NRT_NewAppOrServicePrincipalCredential.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NRT_PIMElevationRequestRejected.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NRT_PrivlegedRoleAssignedOutsidePIM.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NRT_UseraddedtoPrivilgedGroups.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NewAppOrServicePrincipalCredential.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/NewExtUserGrantedAdmin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/PIMElevationRequestRejected.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/PrivilegedAccountPermissionsChanged.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/PrivlegedRoleAssignedOutsidePIM.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/RareApplicationConsent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/SuspiciousOAuthApp_OfflineAccess.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/SuspiciousServicePrincipalcreationactivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/UserAddedtoAdminRole.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/UserAssignedPrivilegedRole.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/UseraddedtoPrivilgedGroups.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AuditLogs/nrt_FirstAppOrServicePrincipalCredential.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/AADHybridHealthADFSNewServer.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/AADHybridHealthADFSServiceDelete.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/AADHybridHealthADFSSuspApp.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/Creating_Anomalous_Number_Of_Resources_detection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/Creation_of_Expensive_Computes_in_Azure.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/Granting_Permissions_To_Account_detection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/NRT-AADHybridHealthADFSNewServer.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/NRT_Creation_of_Expensive_Computes_in_Azure.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/New-CloudShell-User.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/NewResourceGroupsDeployedTo.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/RareOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureActivity/TimeSeriesAnomaly_Mass_Cloud_Resource_Deletions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADOAgentPoolCreatedDeleted.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADOAuditStreamDisabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADONewExtensionAdded.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADOPATUsedWithBrowser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADOPipelineModifiedbyNewUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADORetentionReduced.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADOSecretNotSecured.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ADOVariableModifiedByNewUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/AzDOAdminGroupAdditions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/AzDOHistoricPrPolicyBypassing.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/AzDOHistoricServiceConnectionAdds.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/AzDOPatSessionMisuse.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/AzDOPipelineCreatedDeletedOneDay.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/AzDOServiceConnectionUsage.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/ExternalUpstreamSourceAddedtoAzureDevOpsFeed.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/NRT_ADOAuditStreamDisabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/NewAgentAddedToPoolbyNewUserorofNewOS.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDevOpsAuditing/NewPAPCAPCASaddedtoADO.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDiagnostics/AzureWAFmatching_log4j_vuln.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDiagnostics/KeyVaultSensitiveOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDiagnostics/KeyvaultMassSecretRetrieval.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDiagnostics/MaliciousWAFSessions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDiagnostics/NRT_KeyVaultSensitiveOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureDiagnostics/TimeSeriesKeyvaultAccessAnomaly.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureFirewall/SeveralDenyActionsRegistered.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureWAF/AFD-Premium-WAF-SQLiDetection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/AzureWAF/AFD-Premium-WAF-XSSDetection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/CommonSecurityLog/CiscoASA-AvgAttackDetectRateIncrease.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/CommonSecurityLog/CiscoASA-ThreatDetectionMessage.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/CommonSecurityLog/PaloAlto-NetworkBeaconing.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/CommonSecurityLog/PaloAlto-PortScanning.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/CommonSecurityLog/PaloAlto-UnusualThreatSignatures.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DeviceEvents/SolarWinds_TEARDROP_Process-IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DeviceFileEvents/SolarWinds_SUNBURST_&_SUPERNOVA_File-IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DeviceNetworkEvents/SolarWinds_SUNBURST_Network-IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DeviceProcessEvents/AdFind_Usage.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DnsEvents/DNS_HighNXDomainCount_detection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DnsEvents/DNS_HighReverseDNSCount_detection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DnsEvents/DNS_Miners.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DnsEvents/DNS_TorProxies.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DnsEvents/NRT_DNS_Related_To_Mining_Pools.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/DuoSecurity/IPEntity_DuoSecurity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/GitHub/(Preview) GitHub - Activities from Infrequent Country.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/GitHub/(Preview) GitHub - Two Factor Authentication Disabled in GitHub.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/GitHub/NRT Two Factor Authentication Disabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/GitHub/Security Vulnerability in Repo.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/GitHub/Threat Intel Matches to GitHub Audit Logs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/AdditionalFilesUploadedByActor.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/AquaBlizzardFeb2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/AuthenticationMethodsChangedforPrivilegedAccount.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/BariumDomainIOC112020.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/BariumIPIOC112020.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/BrutforceAttemptOnAzurePortalAndAWSConsolAtSameTime.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/CadetBlizzard_Jan2022_IOC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/CaramelTsunami_IOC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/ChiaCryptoMining.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Cross-CloudSuspiciousComputeResourcecreationinGCP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/CrossCloudSuspiciousUserActivityObservedInGCPEnvourment.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/CrossCloudUnauthorizedCredentialsAccessDetection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/DEV-0322_SolarWinds_Serv-U_IOC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/DenimTsunamiAVDetection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/DenimTsunamiC2DomainsJuly2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/DenimTsunamiFileHashesJuly2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Dev-0270NewUserSep2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Dev-0270PowershellSep2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Dev-0270RegistryIOCSep2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Dev-0270WMICDiscoverySep2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Dev-0530_July2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/DiamondSleetJan272021IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/DiamondSleetOct292020IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/EmeraldSleetIOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/ExchangeServerVulnerabilitiesMarch2021IoCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/ForestBlizzardOct292020IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/GraniteTyphoonIOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/HiveRansomwareJuly2022.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/KnownMintSandstormDomainsIP-October2020.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Log4J_IPIOC_Dec112021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/MFADisable.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/MSHTMLVuln.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Manganese_VPN-IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/MidnightBlizzard_DomainIOCsMarch2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/MidnightBlizzard_FoggyWeb.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/MidnightBlizzard_IOCsMay2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/NetworkEndpointCorrelation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/NewUserAgentLast24h.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/NylonTyphoonIOCsNov2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/PHOSPHORUSMarch2019IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/PlaidRainIPIoC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/PotentialBuildProcessCompromiseMDE.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/PotentialMercury_Webshell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/PrivilegedAccountsSigninFailureSpikes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/RubySleetOct292020IOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/SUNSPOTHashes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/SUNSPOTLogFile.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/SeashellBlizzardIOCs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/SilkTyphoonUmServiceSuspiciousFile.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Solorigate-Network-Beacon.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Solorigate-VM-Network.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/SuccessfulAWSConsoleLoginfromIPAddressObservedConductingPasswordSpray.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/SuspiciousAWSConsolLoginByCredentialAceessAlerts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/TarraskHashIoC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/Unauthorized_user_access_across_AWS_and_Azure.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/UnusualGuestActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/UserAgentSearch_log4j.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/UserImpersonateByAAID.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/UserImpersonateByRiskyUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/WSLMalwareCorrelation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/ZincOctober2022_AVHits_IOC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/ZincOctober2022_Filename_Commandline_IOC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/MultipleDataSources/ZincOctober2022_IP_Domain_Hash_IOC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/BEC_MailboxRule.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/External User added to Team and immediately uploads file.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/ExternalUserAddedRemovedInTeams.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/ForestBlizzardCredHarvesting.yaml",
+      "reason": "retirement notice with outdated IoCs; no query"
+    },
+    {
+      "path": "Detections/OfficeActivity/MailItemsAccessedTimeSeries.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/Mail_redirect_via_ExO_transport_rule.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/Malicious_Inbox_Rule.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/MultipleTeamsDeletes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/Office_MailForwarding.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/Office_Uploaded_Executables.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/RareOfficeOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/SharePoint_Downloads_byNewIP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/SharePoint_Downloads_byNewUserAgent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/exchange_auditlogdisabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/OfficeActivity/office_policytampering.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODBinaryInAttachment.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODDataExfiltrationToPrivateEmail.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODEmailSenderIPinTIList.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODEmailSenderInTIList.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODHighRiskNotDiscarded.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODMultipleArchivedAttachmentsToSameRecipient.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODMultipleLargeEmailsToSameRecipient.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODMultipleProtectedEmailsToUnknownRecipient.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODSuspiciousAttachment.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ProofpointPOD/ProofpointPODWeakCiphers.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/QualysVM/HighNumberofVulnDetected.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/QualysVM/NewHighSeverityVulnDetectedAcrossMulitpleHosts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/QualysVMV2/HighNumberofVulnDetectedV2.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/QualysVMV2/NewHighSeverityVulnDetectedAcrossMulitpleHostsV2.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityAlert/AVSpringShell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityAlert/AVTarrask.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityAlert/AVdetectionsrelatedtoUkrainebasedthreats.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityAlert/AquaBlizzardAVHits.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityAlert/CoreBackupDeletionwithSecurityAlert.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityAlert/CorrelateIPC_Unfamiliar-Atypical.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/ADFSDBNamedPipeConnection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/ADFSRemoteAuthSyncConnection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/ADFSRemoteHTTPNetworkConnection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/CredentialDumpingServiceInstallation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/CredentialDumpingToolsFileArtifacts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/DumpingLSASSProcessIntoaFile.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/ExcessiveLogonFailures.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/ExchangeOABVirtualDirectoryAttributeContainingPotentialWebshell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/GainCodeExecutionADFSViaSMB.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/LateralMovementViaDCOM.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/LocalDeviceJoinInfoAndTransportKeyRegKeysAccess.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/MacroInvokingShellBrowserWindowCOMObjects.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/MultipleFailedFollowedBySuccess.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/NRT_SecurityEventLogCleared.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/NRT_base64_encoded_pefile.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/NRT_execute_base64_decodedpayload.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/NewEXEdeployedviaDefaultDomainorDefaultDomainControllerPolicies.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/NonDCActiveDirectoryReplication.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/PotentialFodhelperUACBypass.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/PotentialRemoteDesktopTunneling.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/Potentialre-namedsdeleteusage.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/RegistryPersistenceViaAppCertDLLModification.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/RegistryPersistenceViaAppInt_DLLsModification.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/ScheduleTaskHide.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/SdeletedeployedviaGPOandrunrecursively.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/SecurityEventLogCleared.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/StartStopHealthService.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/TimeSeriesAnomaly-ProcessExecutions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/WDigestDowngradeAttack.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/WindowsBinariesExecutedfromNon-DefaultDirectory.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/WindowsBinariesLolbinsRenamed.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/base64_encoded_pefile.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/execute_base64_decodedpayload.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/malware_in_recyclebin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/password_not_set.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityEvent/powershell_empire.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SecurityNestedRecommendation/Log4jVulnerableMachines.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/ADFSSignInLogsPasswordSpray.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/AnomalousUserAppSigninLocationIncrease-detection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/AzureAADPowerShellAnomaly.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/AzurePortalSigninfromanotherAzureTenant.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/Brute Force Attack against GitHub Account.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/BruteForceCloudPC.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/BypassCondAccessRule.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/DisabledAccountSigninsAcrossManyApplications.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/DistribPassCrackAttempt.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/ExplicitMFADeny.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/FailedLogonToAzurePortal.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/MFARejectedbyUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/NRT_MFARejectedbyUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/SeamlessSSOPasswordSpray.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/Sign-in Burst from Multiple Locations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/SigninAttemptsByIPviaDisabledAccounts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/SigninBruteForce-AzurePortal.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/SigninPasswordSpray.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/SuccessThenFail_DiffIP_SameUserandApp.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/SigninLogs/UserAccounts-CABlockedSigninSpikes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/Syslog/FailedLogonAttempts_UnknownUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/Syslog/NRT_squid_events_for_mining_pools.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/Syslog/squid_cryptomining_pools.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/Syslog/squid_tor_proxies.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/Syslog/ssh_potentialBruteForce.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/DomainEntity_CommonSecurityLog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/DomainEntity_DnsEvents.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/DomainEntity_PaloAlto.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/DomainEntity_SecurityAlert.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/DomainEntity_Syslog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/DomainEntity_imWebSession.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/EmailEntity_AzureActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/EmailEntity_OfficeActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/EmailEntity_PaloAlto.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/EmailEntity_SecurityAlert.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/EmailEntity_SecurityEvent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/EmailEntity_SigninLogs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/FileHashEntity_CommonSecurityLog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/FileHashEntity_SecurityEvent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AWSCloudTrail.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AppServiceHTTPLogs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AzureActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AzureFirewall.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AzureKeyVault.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AzureNetworkAnalytics.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_AzureSQL.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_CustomSecurityLog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_DnsEvents.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_OfficeActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_VMConnection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_W3CIISLog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPEntity_imWebSession.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/IPentity_SigninLogs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/URLEntity_AuditLogs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/URLEntity_OfficeActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/URLEntity_PaloAlto.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/URLEntity_SecurityAlerts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/ThreatIntelligenceIndicator/URLEntity_Syslog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/W3CIISLog/MaliciousAlertLinkedWebRequests.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/W3CIISLog/Supernovawebshell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/WindowsEvents/CaramelTsunami_IOC_WindowsEvent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Detections/WindowsEvents/ChiaCryptoMining_WindowsEvent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AWSCloudTrail/AWS_IAM_PolicyChange.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AWSCloudTrail/AWS_IAM_PrivilegeEscalationbyAttachment.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AWSCloudTrail/AWS_PrivilegedRoleAttachedToInstance.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AWSCloudTrail/AWS_SuspiciousCredentialTokenAccessOfValid_IAM_Roles.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AWSCloudTrail/AWS_Unused_UnsupportedCloudRegions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AuditLogs/StsRefreshTokenModification.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AuditLogs/UserGrantedAccess_GrantsOthersAccess.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AnalyticsRulesAdministrativeOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AnomalousAzureOperationModel.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/Anomalous_Listing_Of_Storage_Keys.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AzureAdministrationFromVPS.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AzureNSG_AdministrativeOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AzureRunCommandFromAzureIP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AzureSentinelConnectors_AdministrativeOperations.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AzureSentinelWorkbooks_AdministrativeOperation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/AzureVirtualNetworkSubnets_AdministrativeOperationset.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/Common_Deployed_Resources.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/Creating_Anomalous_Number_Of_Resources.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/Granting_Permissions_to_Account.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/PortOpenedForAzureResource.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureActivity/Rare_Custom_Script_Extension.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/AAD Conditional Access Disabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADOBuildCheckDeleted.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADOBuildDeletedAfterPipelineMod.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADOInternalUpstreamPacakgeFeedAdded.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADONewAgentPoolCreated.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADONewPATOperation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADONewPackageFeedCreated.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADONewReleaseApprover.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADOReleasePipelineCreated.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/ADOVariableCreatedDeleted.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/Addtional Org Admin Added.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/AzDODisplayNameSwapping.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/AzDOPrPolicyBypassers.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/Guest users access enabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/Project visibility changed to public.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/Public Projects enabled.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDevOpsAuditing/Public project created.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDiagnostics/AzureKeyVaultAccessManipulation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDiagnostics/SpringshellWebshellUsage.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/AzureDiagnostics/WAF_log4j_vulnerability.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous AAD Account Manipulation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Account Creation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Activity Role Assignment.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Code Execution.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Data Access.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Defensive Mechanism Modification.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Failed Logon.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Geo Location Logon.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Login to Devices.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Password Reset.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous RDP Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Resource Access.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Role Assignment.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/BehaviorAnalytics/Anomalous Sign-in Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/CommonSecurityLog/B64IPInURL.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/CommonSecurityLog/NetworkConnectionToNewExternalLDAPServer.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/CommonSecurityLog/RiskyCommandB64EncodedInUrl.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_CommonlyAbusedTLDs.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_DomainAnomalousLookupIncrease.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_FullNameAnomalousLookupIncrease.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_HighPercentNXDomainCount.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_HighReverseDNSCount.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_LongURILookup.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/DNS_WannaCry.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/Solorigate-DNS-Pattern.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/DnsEvents/Solorigate-Encoded-Domain-URL.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Microsoft 365 Defender/Execution/exchange-iis-worker-dropping-webshell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Microsoft 365 Defender/Execution/umworkerprocess-creating-webshell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Microsoft 365 Defender/Persistence/Possible webshell drop.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/ApplicationGrantedEWSPermissions.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/AzureResourceAssignedPublicIP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/BackupDeletion.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/CobaltDNSBeacon.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/Dev-0056CommandLineActivityNovember2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/Dev-0322CommandLineActivityNovember2021(ASIMVersion).yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/Dev-0322CommandLineActivityNovember2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/Dev-0322FileDropActivityNovember2021(ASIMVersion).yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/Dev-0322FileDropActivityNovember2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/ForestBlizzard_IOC_RetroHunt.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/NetworkConnectionldap_log4j.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/NetworkConnectiontoOMIPorts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/NylonTyphoonCommandLineActivity-Nov2021.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/NylonTyphoonRegIOCPatterns.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/PersistViaIFEORegistryKey.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/PotentialMicrosoftSecurityServicesTampering.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/SolarWindsInventory.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/UnicodeObfuscationInCommandLine.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/MultipleDataSources/UseragentExploitPentest.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/AnomolousUserAccessingOtherUsersMailbox.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/ExternalUserAddedRemovedInTeams_HuntVersion.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/ExternalUserFromNewOrgAddedToTeams.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/Mail_redirect_via_ExO_transport_rule_hunting.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/MultiTeamBot.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/MultiTeamOwner.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/MultipleTeamsDeletes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/MultipleUsersEmailForwardedToSameDestination.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/NewBotAddedToTeams.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/New_WindowsReservedFileNamesOnOfficeFileServices.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/OfficeMailForwarding_hunting.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/TeamsFilesUploaded.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/UserAddToTeamsAndUploadsFile.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/WindowsReservedFileNamesOnOfficeFileServices.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/double_file_ext_exes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/new_adminaccountactivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/new_sharepoint_downloads_by_IP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/new_sharepoint_downloads_by_UserAgent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/nonowner_MailboxLogin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/powershell_or_nonbrowser_MailboxLogin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/OfficeActivity/sharepoint_downloads.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODHighScoreAdultValue.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODHighScoreMalwareValue.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODHighScorePhishValue.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODHighScoreSpamValue.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODHighScoreSuspectValue.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODLargeOutboundEmails.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODRecipientsHighNumberDiscardReject.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODRecipientsLargeNumberOfCorruptedEmails.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODSendersLargeNumberOfCorruptedEmails.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ProofpointPOD/ProofpointPODSuspiciousFileTypesInAttachments.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-Failed SQL Logons.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-MultipleFailedLogon_FromSameIP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-MultipleFailedLogon_InShortSpan.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-New_UserCreated.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-UserAdded_to_SecurityAdmin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-UserDeletedFromDatabase.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-UserRemovedFromSecurityAdmin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-UserRemovedFromServerRole.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SQLServer/SQL-UserRoleChanged.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Certutil-LOLBins.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/CommandsexecutedbyWMIonnewhosts-potentialImpacket.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Crashdumpdisabledonhost.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/CustomUserList_FailedLogons.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/DecoyUserAccountAuthenticationAttempt.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Discorddownloadinvokedfromcmdline.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/ExchangePowerShellSnapin.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/FailedUserLogons.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/FileExecutionWithOneCharacterInTheName.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/GroupAddedToPrivlegeGroup.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/HostExportingMailboxAndRemovingExport.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/HostsWithNewLogons.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Invoke-PowerShellTcpOneLine.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Least_Common_Parent_Child_Process.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Least_Common_Process_Command_Lines.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Least_Common_Process_With_Depth.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/MSRPRN_Printer_Bug_Exploitation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/MultipleExplicitCredentialUsage4648Events.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/NewChildProcessOfW3WP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/NishangReverseTCPShellBase64.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/PotentialImpacketExecution.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/PowerCatDownload.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/ProcessEntropy.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/RareProcbyServiceAccount.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/RareProcessPath.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/RareProcessWithCmdLine.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/RareProcess_forWinHost.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/RemoteLoginPerformedwithWMI.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/RemoteScheduledTaskCreationUpdateUsingATSVCNamedPipe.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/ScheduledTaskCreationUpdateFromUserWritableDrectory.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/ServiceInstallationFromUsersWritableDirectory.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/SignedBinaryProxyExecutionRundll32.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/SuspectedLSASSDump.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Suspicious_Windows_Login_outside_normal_hours.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/Suspicious_enumeration_using_adfind.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/User Logons By Logon Type.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/UserAccountAddedToPrivlegeGroup.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/UserAccountCreatedDeleted.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/UserAdd_RemToGroupByUnauthorizedUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/UserCreatedByUnauthorizedUser.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/VIPAccountFailedLogons.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/WindowsSystemTimeChange.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/cscript_summary.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/enumeration_user_and_group.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/masquerading_files.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/new_processes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/persistence_create_account.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/powershell_downloads.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/powershell_newencodedscipts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SecurityEvent/uncommon_processes.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SigninLogs/DisabledAccountSigninAttempts.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SigninLogs/DisabledAccountSigninAttemptsByIP.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SigninLogs/Signins-From-VPS-Providers.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SigninLogs/Signins-from-NordVPN-Providers.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/SigninLogs/SuspiciousSignintoPrivilegedAccount.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Apache_log4j_Vulnerability.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Base64_Download_Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Container_Miner_Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/CryptoCurrencyMiners.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/CryptoThreatActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Firewall_Disable_Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Linux_Toolkit_Detected.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Process_Termination_Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/RareProcess_ForLxHost.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/SCXExecuteRunAsProviders.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/SchedTaskAggregation.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/SchedTaskEditViaCrontab.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/Suspicious_ShellScript_Activity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/squid_abused_tlds.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/squid_malformed_requests.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/Syslog/squid_volume_anomalies.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ThreatIntelligenceIndicator/FileEntity_OfficeActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ThreatIntelligenceIndicator/FileEntity_SecurityEvent.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ThreatIntelligenceIndicator/FileEntity_Syslog.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ThreatIntelligenceIndicator/FileEntity_VMConnection.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/ThreatIntelligenceIndicator/FileEntity_WireData.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/W3CIISLog/PotentialWebshell.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Hunting Queries/W3CIISLog/WebShellActivity.yaml",
+      "reason": "migration/deprecation notice without query"
+    },
+    {
+      "path": "Solutions/Microsoft 365/Analytic Rules/ForestBlizzardCredHarvesting.yaml",
+      "reason": "retirement notice with outdated IoCs; no query"
+    }
+  ]
+}

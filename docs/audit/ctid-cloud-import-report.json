@@ -1,0 +1,26 @@
+{
+  "source_id": "ctid-cloud",
+  "status": "indexed",
+  "count": 13,
+  "candidate_files": 17,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 4,
+  "skipped_file_examples": [
+    "analytics/azure_correlation_guest_priv_esc_then_storage_public.yml",
+    "analytics/azure_mfa_failure_threshold_exceeded.yml",
+    "analytics/gcp_correlation_user_added_priv_group_then_gcp_storage_modified.yml",
+    "analytics/gcp_perms_granted_over_service_acct.yml"
+  ],
+  "commit": "6106cc1db4470c63aff856e5bb177efeeca4c4de",
+  "last_success": "2026-09-21T10:51:28.793282+00:00",
+  "last_attempt": "2026-09-21T10:51:28.793294+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": [
+    "analytics/azure_correlation_guest_priv_esc_then_storage_public.yml",
+    "analytics/azure_mfa_failure_threshold_exceeded.yml",
+    "analytics/gcp_correlation_user_added_priv_group_then_gcp_storage_modified.yml",
+    "analytics/gcp_perms_granted_over_service_acct.yml"
+  ]
+}

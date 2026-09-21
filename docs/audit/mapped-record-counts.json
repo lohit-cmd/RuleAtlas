@@ -1,0 +1,18 @@
+{
+  "elastic": 2180,
+  "sigma": 3289,
+  "chronicle": 722,
+  "sekoia": 30,
+  "panther": 717,
+  "ctid-cloud": 13,
+  "hayabusa": 4289,
+  "falco": 95,
+  "signature-base": 6,
+  "dfir-yara": 1,
+  "capa": 586,
+  "bertjan": 236,
+  "wazuh": 1059,
+  "joe-security": 13,
+  "splunk": 2143,
+  "sentinel": 4051
+}

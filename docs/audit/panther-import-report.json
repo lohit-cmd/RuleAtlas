@@ -1,0 +1,16 @@
+{
+  "source_id": "panther",
+  "status": "indexed",
+  "count": 1024,
+  "candidate_files": 1024,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "a15eae67277660941884d9053d6d654395b64e17",
+  "last_success": "2026-09-21T10:51:03.353376+00:00",
+  "last_attempt": "2026-09-21T10:51:03.353396+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

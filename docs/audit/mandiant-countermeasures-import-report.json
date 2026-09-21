@@ -1,0 +1,16 @@
+{
+  "source_id": "mandiant-countermeasures",
+  "status": "indexed",
+  "count": 172,
+  "candidate_files": 172,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "3561b71724dbfa3e2bb78106aaa2d7f8b892c43b",
+  "last_success": "2026-09-21T10:53:47.245470+00:00",
+  "last_attempt": "2026-09-21T10:53:47.245484+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

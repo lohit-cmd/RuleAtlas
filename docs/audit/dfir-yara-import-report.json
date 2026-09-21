@@ -1,0 +1,20 @@
+{
+  "source_id": "dfir-yara",
+  "status": "indexed",
+  "count": 52,
+  "candidate_files": 53,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 1,
+  "skipped_file_examples": [
+    "index.yar"
+  ],
+  "commit": "9034e24193b38aad1fbc0912ace3683eb5728a92",
+  "last_success": "2026-09-21T10:54:14.609819+00:00",
+  "last_attempt": "2026-09-21T10:54:14.609831+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": [
+    "index.yar"
+  ]
+}

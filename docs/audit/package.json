@@ -1,0 +1,12 @@
+{
+  "version": "0.1.3",
+  "status": "passed",
+  "checks": [
+    "wheel installed into isolated virtual environment",
+    "executed outside source directory",
+    "25 packaged sources",
+    "packaged HTML JavaScript and CSS",
+    "module demo command",
+    "installed entry point ATT&CK search"
+  ]
+}

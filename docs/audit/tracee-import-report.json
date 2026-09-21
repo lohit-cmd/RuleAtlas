@@ -1,0 +1,16 @@
+{
+  "source_id": "tracee",
+  "status": "indexed",
+  "count": 117,
+  "candidate_files": 117,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "932ca4485fd881b11acc8e16d7002e2dde8f4998",
+  "last_success": "2026-09-21T10:53:01.778392+00:00",
+  "last_attempt": "2026-09-21T10:53:01.778423+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

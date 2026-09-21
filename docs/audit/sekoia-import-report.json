@@ -1,0 +1,16 @@
+{
+  "source_id": "sekoia",
+  "status": "indexed",
+  "count": 30,
+  "candidate_files": 30,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "fa3a9630ef9ce484fb1b945480a43f989e6865d4",
+  "last_success": "2026-09-21T10:50:54.894222+00:00",
+  "last_attempt": "2026-09-21T10:50:54.894236+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

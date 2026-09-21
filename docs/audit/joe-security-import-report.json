@@ -1,0 +1,45 @@
+{
+  "source_id": "joe-security",
+  "status": "indexed with warnings",
+  "count": 119,
+  "candidate_files": 119,
+  "warning_count": 7,
+  "parse_warnings": [
+    {
+      "path": "rules/koadicpostexploitationrootkit.yml",
+      "error": "found undefined alias 'chcp'\n  in \"<unicode string>\", line 18, column 15:\n                - *chcp 437 & schtasks /query /tn  ... \n                  ^"
+    },
+    {
+      "path": "rules/powershelldownloadingfilefromurlshortenersite.yml",
+      "error": "while scanning an alias\n  in \"<unicode string>\", line 33, column 16:\n                - '*powershell*net.web*https://bitly.*\n                   ^\nexpected alphabetic or numeric character, but found '*'\n  in \"<unicode string>\", line 33, column 27:\n                - '*powershell*net.web*https://bitly.*\n                              ^"
+    },
+    {
+      "path": "rules/powershelllaunchregsvr32.yml",
+      "error": "while scanning an alias\n  in \"<unicode string>\", line 18, column 15:\n                - *powershell*regsvr32*\n                  ^\nexpected alphabetic or numeric character, but found '*'\n  in \"<unicode string>\", line 18, column 26:\n                - *powershell*regsvr32*\n                             ^"
+    },
+    {
+      "path": "rules/powershellsleepandlaunchexecutable.yml",
+      "error": "found undefined alias 'powershell'\n  in \"<unicode string>\", line 18, column 15:\n                - *powershell -c sleep -s *;saps * ... \n                  ^"
+    },
+    {
+      "path": "rules/registerdllwithspoofedextension.yml",
+      "error": "while scanning an alias\n  in \"<unicode string>\", line 20, column 16:\n                - '*regsvr32*\\\\*.png*\n                   ^\nexpected alphabetic or numeric character, but found '*'\n  in \"<unicode string>\", line 20, column 25:\n                - '*regsvr32*\\\\*.png*\n                            ^"
+    },
+    {
+      "path": "rules/shedulehiddenpowershellscript.yml",
+      "error": "while scanning an alias\n  in \"<unicode string>\", line 18, column 15:\n                - *schtasks.exe*/create*powershell ... \n                  ^\nexpected alphabetic or numeric character, but found '.'\n  in \"<unicode string>\", line 18, column 24:\n                - *schtasks.exe*/create*powershell*hidden*\n                           ^"
+    },
+    {
+      "path": "rules/wscriptdownloadfileintotemplocationfromwordpresssite.yml",
+      "error": "found undefined alias 'cmd'\n  in \"<unicode string>\", line 18, column 15:\n                - *cmd /c wscript.exe *\\AppData\\Lo ... \n                  ^"
+    }
+  ],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "cb91be06c8c95ce63aa9aa5006a7835678136a96",
+  "last_success": "2026-09-21T11:18:54.687887+00:00",
+  "last_attempt": "2026-09-21T11:18:54.687899+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

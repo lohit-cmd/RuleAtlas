@@ -1,0 +1,20 @@
+{
+  "passed": [
+    "exact sub-technique search",
+    "parent expansion toggle",
+    "source filter",
+    "scenario evidence lines",
+    "CSV download",
+    "25-source catalog",
+    "archive default and transport selection",
+    "failed sync display and retry",
+    "six evidence fields",
+    "assessment save and restore",
+    "mobile width",
+    "no browser runtime errors"
+  ],
+  "dimensions": {
+    "width": 430,
+    "scroll": 430
+  }
+}

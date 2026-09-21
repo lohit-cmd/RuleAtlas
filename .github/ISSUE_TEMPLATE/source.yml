@@ -1,0 +1,20 @@
+name: Suggest a detection source
+description: Propose a public repository with credibility evidence
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence for the six source checks
+      description: Ownership, adoption, engineering quality, maintenance, traceability, rule validation. Mark unknowns explicitly.
+    validations:
+      required: true
+  - type: textarea
+    id: formats
+    attributes:
+      label: Formats, paths, dependencies, and license references

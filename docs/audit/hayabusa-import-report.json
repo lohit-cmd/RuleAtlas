@@ -1,0 +1,16 @@
+{
+  "source_id": "hayabusa",
+  "status": "indexed",
+  "count": 4987,
+  "candidate_files": 4984,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "10d1b6dc3ec884daf04d736a7fc78bf2ee898664",
+  "last_success": "2026-09-21T10:52:36.396191+00:00",
+  "last_attempt": "2026-09-21T10:52:36.396203+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

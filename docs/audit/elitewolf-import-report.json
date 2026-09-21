@@ -1,0 +1,20 @@
+{
+  "source_id": "elitewolf",
+  "status": "indexed",
+  "count": 52,
+  "candidate_files": 4,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 1,
+  "skipped_file_examples": [
+    "ELITEWOLF_SNORT_README.txt"
+  ],
+  "commit": "f0c4c951ef4b8233015259fe5af7c71355c04c4a",
+  "last_success": "2026-09-21T10:53:26.344194+00:00",
+  "last_attempt": "2026-09-21T10:53:26.344208+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": [
+    "ELITEWOLF_SNORT_README.txt"
+  ]
+}

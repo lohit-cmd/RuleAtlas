@@ -1,0 +1,16 @@
+{
+  "source_id": "wazuh",
+  "status": "indexed",
+  "count": 4512,
+  "candidate_files": 168,
+  "warning_count": 0,
+  "parse_warnings": [],
+  "skipped_file_count": 0,
+  "skipped_file_examples": [],
+  "commit": "a42268a27c555d9348d5598fb8751eaf4c8e9024",
+  "last_success": "2026-09-21T11:13:33.248609+00:00",
+  "last_attempt": "2026-09-21T11:13:33.248623+00:00",
+  "last_error": null,
+  "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage.",
+  "skipped_files": []
+}

@@ -1,0 +1,1200 @@
+{
+  "tested_at": "2026-09-21T11:25:42.842608+00:00",
+  "platform": "linux",
+  "python": "3.12.14",
+  "sources": {
+    "splunk": {
+      "status": "passed",
+      "repo": "splunk/security_content",
+      "adapter": "splunk",
+      "patterns": [
+        "detections/*.yml"
+      ],
+      "import": {
+        "source_id": "splunk",
+        "status": "indexed",
+        "count": 2169,
+        "candidate_files": 2169,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "7b6385a2f27505500c8d18cebca9a83513d33b39",
+        "last_success": "2026-09-21T11:19:04.441156+00:00",
+        "last_attempt": "2026-09-21T11:19:04.441173+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 2169,
+        "fts_records": 2169,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "5dcde795ad09c111c2be56105b0d5b08b4a189bbf4df9d4b3c7c2ab0db326b70",
+        "sample_url": "https://github.com/splunk/security_content/blob/7b6385a2f27505500c8d18cebca9a83513d33b39/detections/endpoint/schedule_task_with_http_command_arguments.yml"
+      },
+      "tested_at": "2026-09-21T11:19:05.473986+00:00",
+      "seconds": 40.98,
+      "transport": "archive"
+    },
+    "sigma": {
+      "status": "passed",
+      "repo": "SigmaHQ/sigma",
+      "adapter": "sigma",
+      "patterns": [
+        "rules/*.yml",
+        "rules-emerging-threats/*.yml",
+        "rules-threat-hunting/*.yml",
+        "rules-compliance/*.yml",
+        "rules-correlation/*.yml"
+      ],
+      "import": {
+        "source_id": "sigma",
+        "status": "indexed",
+        "count": 3760,
+        "candidate_files": 3760,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "2e8fd89f82d9104c1b30321a307254ddeea17de2",
+        "last_success": "2026-09-21T10:50:03.092858+00:00",
+        "last_attempt": "2026-09-21T10:50:03.092870+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 3760,
+        "fts_records": 3760,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "2d37bd8c476b6f0e810d3d27778aa7f208dcdf51b64884e20b8110fe05628396",
+        "sample_url": "https://github.com/SigmaHQ/sigma/blob/2e8fd89f82d9104c1b30321a307254ddeea17de2/rules/windows/process_creation/proc_creation_win_explorer_folder_shortcut_via_shell_binary.yml"
+      },
+      "tested_at": "2026-09-21T10:50:04.920860+00:00",
+      "seconds": 53.71,
+      "transport": "archive"
+    },
+    "elastic": {
+      "status": "passed",
+      "repo": "elastic/detection-rules",
+      "adapter": "elastic",
+      "patterns": [
+        "rules/*.toml",
+        "rules_building_block/*.toml"
+      ],
+      "import": {
+        "source_id": "elastic",
+        "status": "indexed",
+        "count": 2247,
+        "candidate_files": 2247,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "c66b12c9493f4bf1121a59b8c705da894ff380e8",
+        "last_success": "2026-09-21T10:49:55.762999+00:00",
+        "last_attempt": "2026-09-21T10:49:55.763010+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 2247,
+        "fts_records": 2247,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "1af2fc7aa845c4e44a18e8365998f03ae1b1322314365d1fb901e5b286da3cbe",
+        "sample_url": "https://github.com/elastic/detection-rules/blob/c66b12c9493f4bf1121a59b8c705da894ff380e8/rules/linux/defense_evasion_unusual_preload_env_vars.toml"
+      },
+      "tested_at": "2026-09-21T10:50:04.150473+00:00",
+      "seconds": 52.93,
+      "transport": "archive"
+    },
+    "gcp-analytics": {
+      "status": "passed",
+      "repo": "GoogleCloudPlatform/security-analytics",
+      "adapter": "yaral",
+      "patterns": [
+        "backends/chronicle/yaral/*.yaral"
+      ],
+      "import": {
+        "source_id": "gcp-analytics",
+        "status": "indexed",
+        "count": 13,
+        "candidate_files": 13,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "2dd8565557e043e25d16df8f7743b9e69374d6f3",
+        "last_success": "2026-09-21T10:50:26.915246+00:00",
+        "last_attempt": "2026-09-21T10:50:26.915283+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 13,
+        "fts_records": 13,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "faf6f8672eda5b5df9c5ddc10a692f096d7944777e5039379d33021a12db5fbb",
+        "sample_url": "https://github.com/GoogleCloudPlatform/security-analytics/blob/2dd8565557e043e25d16df8f7743b9e69374d6f3/backends/chronicle/yaral/3_12_firewall_rules_modified_or_deleted.yaral"
+      },
+      "tested_at": "2026-09-21T10:50:27.031120+00:00",
+      "seconds": 22.11,
+      "transport": "archive"
+    },
+    "chronicle": {
+      "status": "passed",
+      "repo": "chronicle/detection-rules",
+      "adapter": "yaral",
+      "patterns": [
+        "rules/*.yaral",
+        "rules/*.yara",
+        "rules/*.yar"
+      ],
+      "import": {
+        "source_id": "chronicle",
+        "status": "indexed",
+        "count": 917,
+        "candidate_files": 917,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "234e9223c3b8f3d1c30209d9663797ba69057533",
+        "last_success": "2026-09-21T10:50:27.362131+00:00",
+        "last_attempt": "2026-09-21T10:50:27.362146+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 917,
+        "fts_records": 917,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "76008e9f19a3def9e7d9dc64a0af22eedc4ae16fbc7154acc1e9067ec01d920d",
+        "sample_url": "https://github.com/chronicle/detection-rules/blob/234e9223c3b8f3d1c30209d9663797ba69057533/rules/_deprecated/soc_prime_rules/threat_hunting/windows/enabling_rdp_remotely_using_psexec.yaral"
+      },
+      "tested_at": "2026-09-21T10:50:27.651149+00:00",
+      "seconds": 23.5,
+      "transport": "archive"
+    },
+    "sentinel": {
+      "status": "passed",
+      "repo": "Azure/Azure-Sentinel",
+      "adapter": "sentinel",
+      "patterns": [
+        "Detections/*.yaml",
+        "Detections/*.yml",
+        "Solutions/*/Analytic Rules/*.yaml",
+        "Solutions/*/Analytic Rules/*.yml",
+        "Solutions/*/Hunting Queries/*.yaml",
+        "Hunting Queries/*.yaml"
+      ],
+      "import": {
+        "source_id": "sentinel",
+        "status": "indexed",
+        "count": 5023,
+        "candidate_files": 5544,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 521,
+        "skipped_file_examples": [
+          "Detections/ASimDNS/imDns_DomainEntity_DnsEvents.yaml",
+          "Detections/ASimDNS/imDns_IPEntity_DnsEvents.yaml",
+          "Detections/ASimFileEvent/SuspiciousAccessOfBECRelatedDocuments.yaml",
+          "Detections/ASimNetworkSession/ExcessiveHTTPFailuresFromSource.yaml",
+          "Detections/ASimNetworkSession/IPEntity_imNetworkSession.yaml",
+          "Detections/ASimNetworkSession/PortScan.yaml",
+          "Detections/ASimNetworkSession/PossibleBeaconingActivity.yaml",
+          "Detections/AWSCloudTrail/AWS_ChangeToRDSDatabase.yaml",
+          "Detections/AWSCloudTrail/AWS_ChangeToVPC.yaml",
+          "Detections/AWSCloudTrail/AWS_ClearStopChangeTrailLogs.yaml",
+          "Detections/AWSCloudTrail/AWS_ConsoleLogonWithoutMFA.yaml",
+          "Detections/AWSCloudTrail/AWS_CredentialHijack.yaml",
+          "Detections/AWSCloudTrail/AWS_FullAdminPolicyAttachedToRolesUsersGroups.yaml",
+          "Detections/AWSCloudTrail/AWS_IngressEgressSecurityGroupChange.yaml",
+          "Detections/AWSCloudTrail/AWS_LoadBalancerSecGroupChange.yaml",
+          "Detections/AWSCloudTrail/NRT_AWS_ConsoleLogonWithoutMFA.yaml",
+          "Detections/AWSCloudTrail/SuspiciousAccessOfBECRelatedDocumentsInAWSS3Buckets.yaml",
+          "Detections/AWSGuardDuty/AWS_GuardDuty_template.yaml",
+          "Detections/AuditLogs/ADFSDomainTrustMods.yaml",
+          "Detections/AuditLogs/AccountCreatedDeletedByNonApprovedUser.yaml",
+          "Detections/AuditLogs/AccountCreatedandDeletedinShortTimeframe.yaml",
+          "Detections/AuditLogs/AccountElevatedtoNewRole.yaml",
+          "Detections/AuditLogs/AdminPromoAfterRoleMgmtAppPermissionGrant.yaml",
+          "Detections/AuditLogs/AuthenticationMethodChangedforPrivilegedAccount.yaml",
+          "Detections/AuditLogs/AzureADRoleManagementPermissionGrant.yaml",
+          "Detections/AuditLogs/BulkChangestoPrivilegedAccountPermissions.yaml",
+          "Detections/AuditLogs/CredentialAddedAfterAdminConsent.yaml",
+          "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationAdded.yaml",
+          "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationDeleted.yaml",
+          "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationInboundCollaborationSettingsChanged.yaml",
+          "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationInboundDirectSettingsChanged.yaml",
+          "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationOutboundCollaborationSettingsChanged.yaml",
+          "Detections/AuditLogs/Cross-tenantAccessSettingsOrganizationOutboundDirectSettingsChanged.yaml",
+          "Detections/AuditLogs/FirstAppOrServicePrincipalCredential.yaml",
+          "Detections/AuditLogs/GuestAccountsAddedinAADGroupsOtherThanTheOnesSpecified.yaml",
+          "Detections/AuditLogs/MailPermissionsAddedToApplication.yaml",
+          "Detections/AuditLogs/MaliciousOAuthApp_O365AttackToolkit.yaml",
+          "Detections/AuditLogs/MaliciousOAuthApp_PwnAuth.yaml",
+          "Detections/AuditLogs/MultipleAdmin_membership_removals_from_NewAdmin.yaml",
+          "Detections/AuditLogs/NRT_ADFSDomainTrustMods.yaml",
+          "Detections/AuditLogs/NRT_AuthenticationMethodsChangedforVIPUsers.yaml",
+          "Detections/AuditLogs/NRT_NewAppOrServicePrincipalCredential.yaml",
+          "Detections/AuditLogs/NRT_PIMElevationRequestRejected.yaml",
+          "Detections/AuditLogs/NRT_PrivlegedRoleAssignedOutsidePIM.yaml",
+          "Detections/AuditLogs/NRT_UseraddedtoPrivilgedGroups.yaml",
+          "Detections/AuditLogs/NewAppOrServicePrincipalCredential.yaml",
+          "Detections/AuditLogs/NewExtUserGrantedAdmin.yaml",
+          "Detections/AuditLogs/PIMElevationRequestRejected.yaml",
+          "Detections/AuditLogs/PrivilegedAccountPermissionsChanged.yaml",
+          "Detections/AuditLogs/PrivlegedRoleAssignedOutsidePIM.yaml"
+        ],
+        "commit": "20c2848aa78467a4d6fd8a0af6e3c32aaf9578fe",
+        "last_success": "2026-09-21T11:25:40.762826+00:00",
+        "last_attempt": "2026-09-21T11:25:40.762844+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 5023,
+        "fts_records": 5023,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "f6daccf4ea6af37ecb2adc07471379d86d86f60fe6bdf1678baf853ce38feb2f",
+        "sample_url": "https://github.com/Azure/Azure-Sentinel/blob/20c2848aa78467a4d6fd8a0af6e3c32aaf9578fe/Solutions/FalconFriday/Analytic%20Rules/AzureADUserAgentOSmissmatch.yaml"
+      },
+      "tested_at": "2026-09-21T11:25:42.842560+00:00",
+      "seconds": 188.89,
+      "transport": "archive"
+    },
+    "sekoia": {
+      "status": "passed",
+      "repo": "SEKOIA-IO/Community",
+      "adapter": "sigma",
+      "patterns": [
+        "sigma_rules/*.yml",
+        "sigma_rules/*.yaml"
+      ],
+      "import": {
+        "source_id": "sekoia",
+        "status": "indexed",
+        "count": 30,
+        "candidate_files": 30,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "fa3a9630ef9ce484fb1b945480a43f989e6865d4",
+        "last_success": "2026-09-21T10:50:54.894222+00:00",
+        "last_attempt": "2026-09-21T10:50:54.894236+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 30,
+        "fts_records": 30,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "9378439b978b04cf36f32bc5f861778004db216de727a6c4026cc3b1cb6d7be5",
+        "sample_url": "https://github.com/SEKOIA-IO/Community/blob/fa3a9630ef9ce484fb1b945480a43f989e6865d4/sigma_rules/host/mdav_disable_services.yml"
+      },
+      "tested_at": "2026-09-21T10:51:00.184363+00:00",
+      "seconds": 32.53,
+      "transport": "archive"
+    },
+    "sublime": {
+      "status": "passed",
+      "repo": "sublime-security/sublime-rules",
+      "adapter": "sublime",
+      "patterns": [
+        "detection-rules/*.yml",
+        "discovery-rules/*.yml"
+      ],
+      "import": {
+        "source_id": "sublime",
+        "status": "indexed",
+        "count": 1284,
+        "candidate_files": 1284,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "1a4de55cd279f5630ea287d116cb556d5316dd89",
+        "last_success": "2026-09-21T10:51:30.077993+00:00",
+        "last_attempt": "2026-09-21T10:51:30.078009+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 1284,
+        "fts_records": 1284,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "5c71fc23756f8198ca7de88ed641717908d464b52b0b4efd0ba639845bed1bde",
+        "sample_url": "https://github.com/sublime-security/sublime-rules/blob/1a4de55cd279f5630ea287d116cb556d5316dd89/detection-rules/impersonation_openai_payment_issues.yml"
+      },
+      "tested_at": "2026-09-21T10:51:30.505344+00:00",
+      "seconds": 30.31,
+      "transport": "archive"
+    },
+    "panther": {
+      "status": "passed",
+      "repo": "panther-labs/panther-analysis",
+      "adapter": "panther",
+      "patterns": [
+        "rules/*.yml",
+        "rules/*.yaml",
+        "policies/*.yml",
+        "policies/*.yaml",
+        "correlation_rules/*.yml"
+      ],
+      "import": {
+        "source_id": "panther",
+        "status": "indexed",
+        "count": 1024,
+        "candidate_files": 1024,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "a15eae67277660941884d9053d6d654395b64e17",
+        "last_success": "2026-09-21T10:51:03.353376+00:00",
+        "last_attempt": "2026-09-21T10:51:03.353396+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 1024,
+        "fts_records": 1024,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "3570e1e26a79a8dc6ef244e85e10bf85b87c617faeb8ab633977f2e6c0a6ef30",
+        "sample_url": "https://github.com/panther-labs/panther-analysis/blob/a15eae67277660941884d9053d6d654395b64e17/rules/databricks_rules/databricks_delta_sharing_ip_access_failures.yml"
+      },
+      "tested_at": "2026-09-21T10:51:04.190747+00:00",
+      "seconds": 37.16,
+      "transport": "archive"
+    },
+    "ctid-cloud": {
+      "status": "passed",
+      "repo": "center-for-threat-informed-defense/cloud-analytics",
+      "adapter": "sigma",
+      "patterns": [
+        "analytics/*.yml",
+        "analytics/*.yaml"
+      ],
+      "import": {
+        "source_id": "ctid-cloud",
+        "status": "indexed",
+        "count": 13,
+        "candidate_files": 17,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 4,
+        "skipped_file_examples": [
+          "analytics/azure_correlation_guest_priv_esc_then_storage_public.yml",
+          "analytics/azure_mfa_failure_threshold_exceeded.yml",
+          "analytics/gcp_correlation_user_added_priv_group_then_gcp_storage_modified.yml",
+          "analytics/gcp_perms_granted_over_service_acct.yml"
+        ],
+        "commit": "6106cc1db4470c63aff856e5bb177efeeca4c4de",
+        "last_success": "2026-09-21T10:51:28.793282+00:00",
+        "last_attempt": "2026-09-21T10:51:28.793294+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 13,
+        "fts_records": 13,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "e1e37782a6430ad383f58f2f87f3307917dd083ec96af2804e154c8743bb6f63",
+        "sample_url": "https://github.com/center-for-threat-informed-defense/cloud-analytics/blob/6106cc1db4470c63aff856e5bb177efeeca4c4de/analytics/azure_storage_container_modified_for_public_access.yml"
+      },
+      "tested_at": "2026-09-21T10:51:29.699003+00:00",
+      "seconds": 25.51,
+      "transport": "archive"
+    },
+    "bertjan": {
+      "status": "passed",
+      "repo": "Bert-JanP/Hunting-Queries-Detection-Rules",
+      "adapter": "kql_markdown",
+      "patterns": [
+        "*.md",
+        "*.kql",
+        "*.csl"
+      ],
+      "import": {
+        "source_id": "bertjan",
+        "status": "indexed",
+        "count": 840,
+        "candidate_files": 459,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 8,
+        "skipped_file_examples": [
+          "Community Repositories.md",
+          "Azure Active Directory/nf_ttp_t1562.001_scattered-spider_abuse conditional_access_trusted_locations.md",
+          "Defender For Endpoint/Living Off The Land/README.md",
+          "MISP/MISP Feed Implementation Status/README.md",
+          "MITRE ATT&CK/Mapping.md",
+          "Security Operations/README.md",
+          "Sentinel/Summary Rules/AzureHound.md",
+          "Sentinel/Summary Rules/README.md"
+        ],
+        "commit": "60a829ba4629f6d63866146f0a1b9cb90f31bb03",
+        "last_success": "2026-09-21T11:13:30.855886+00:00",
+        "last_attempt": "2026-09-21T11:13:30.855901+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 840,
+        "fts_records": 840,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "f840269fd8d501b7e61a9e958d06db5cc82c895b1fa8c9db5547b7b60f04cfd0",
+        "sample_url": "https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/blob/60a829ba4629f6d63866146f0a1b9cb90f31bb03/Defender%20For%20Endpoint/Living%20Off%20The%20Land/CertutilRemoteDownload.md"
+      },
+      "tested_at": "2026-09-21T11:13:31.380753+00:00",
+      "seconds": 30.94,
+      "transport": "archive"
+    },
+    "reprise99": {
+      "status": "passed",
+      "repo": "reprise99/Sentinel-Queries",
+      "adapter": "kql_markdown",
+      "patterns": [
+        "*.md",
+        "*.kql",
+        "*.csl"
+      ],
+      "import": {
+        "source_id": "reprise99",
+        "status": "indexed",
+        "count": 562,
+        "candidate_files": 470,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 5,
+        "skipped_file_examples": [
+          "Azure Diagnostics/code_sample.md",
+          "CISA Insights/README.md",
+          "Functions/README.md",
+          "Query Pack/README.md",
+          "Workbooks/README.md"
+        ],
+        "commit": "660895f644b2a149009820f653978620f65ef56c",
+        "last_success": "2026-09-21T11:13:31.195553+00:00",
+        "last_attempt": "2026-09-21T11:13:31.195565+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 562,
+        "fts_records": 562,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "24d7b9e601c2615f6d77d0c89b91aa2f8c310a0237706aade88be791c68b5cf4",
+        "sample_url": "https://github.com/reprise99/Sentinel-Queries/blob/660895f644b2a149009820f653978620f65ef56c/Azure%20Active%20Directory/OAuth-DelegatedPermissionsGrant.kql"
+      },
+      "tested_at": "2026-09-21T11:13:31.495278+00:00",
+      "seconds": 31.05,
+      "transport": "archive"
+    },
+    "elastic-endpoint": {
+      "status": "passed",
+      "repo": "elastic/protections-artifacts",
+      "adapter": "elastic",
+      "patterns": [
+        "behavior/rules/*.toml"
+      ],
+      "import": {
+        "source_id": "elastic-endpoint",
+        "status": "indexed",
+        "count": 1327,
+        "candidate_files": 1327,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "ce99f77ba7cc2e442589d49e01b9db262d31ae91",
+        "last_success": "2026-09-21T10:52:20.604470+00:00",
+        "last_attempt": "2026-09-21T10:52:20.604484+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 1327,
+        "fts_records": 1327,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "3332fe1ac644dde75e6b888e91e960af45527d1a4e87821b90077f47029cc10b",
+        "sample_url": "https://github.com/elastic/protections-artifacts/blob/ce99f77ba7cc2e442589d49e01b9db262d31ae91/behavior/rules/windows/defense_evasion_api_call_from_inaccessible_memory_page.toml"
+      },
+      "tested_at": "2026-09-21T10:52:21.660158+00:00",
+      "seconds": 26.07,
+      "transport": "archive"
+    },
+    "falco": {
+      "status": "passed",
+      "repo": "falcosecurity/rules",
+      "adapter": "falco",
+      "patterns": [
+        "rules/*.yaml"
+      ],
+      "import": {
+        "source_id": "falco",
+        "status": "indexed",
+        "count": 95,
+        "candidate_files": 3,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "e822409d8a2a28c9719f56ace66e8cadebfd2bc3",
+        "last_success": "2026-09-21T10:52:48.133256+00:00",
+        "last_attempt": "2026-09-21T10:52:48.133318+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 95,
+        "fts_records": 95,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "6f8f7a37c448880e0b8dac23497f8be3985ac229baa6f5b739f79b369ae2366b",
+        "sample_url": "https://github.com/falcosecurity/rules/blob/e822409d8a2a28c9719f56ace66e8cadebfd2bc3/rules/falco-sandbox_rules.yaml"
+      },
+      "tested_at": "2026-09-21T10:52:48.847395+00:00",
+      "seconds": 27.19,
+      "transport": "archive"
+    },
+    "hayabusa": {
+      "status": "passed",
+      "repo": "Yamato-Security/hayabusa-rules",
+      "adapter": "sigma",
+      "patterns": [
+        "hayabusa/*.yml",
+        "sigma/*.yml"
+      ],
+      "import": {
+        "source_id": "hayabusa",
+        "status": "indexed",
+        "count": 4987,
+        "candidate_files": 4984,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "10d1b6dc3ec884daf04d736a7fc78bf2ee898664",
+        "last_success": "2026-09-21T10:52:36.396191+00:00",
+        "last_attempt": "2026-09-21T10:52:36.396203+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 4987,
+        "fts_records": 4987,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "506dd21a116af36796cff5529522fe8226d4703fb84ba02609dce1feba6c125b",
+        "sample_url": "https://github.com/Yamato-Security/hayabusa-rules/blob/10d1b6dc3ec884daf04d736a7fc78bf2ee898664/sigma/builtin/threat-hunting/process_creation/proc_creation_win_diskshadow_child_process.yml"
+      },
+      "tested_at": "2026-09-21T10:52:38.508202+00:00",
+      "seconds": 43.95,
+      "transport": "archive"
+    },
+    "tracee": {
+      "status": "passed",
+      "repo": "aquasecurity/tracee",
+      "adapter": "code",
+      "patterns": [
+        "signatures/golang/*.go",
+        "detectors/*.go"
+      ],
+      "import": {
+        "source_id": "tracee",
+        "status": "indexed",
+        "count": 117,
+        "candidate_files": 117,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "932ca4485fd881b11acc8e16d7002e2dde8f4998",
+        "last_success": "2026-09-21T10:53:01.778392+00:00",
+        "last_attempt": "2026-09-21T10:53:01.778423+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 117,
+        "fts_records": 117,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "d2acc857e863d57e3e3e217a30527c24f30dcd365db226b8c2caa4725e876f05",
+        "sample_url": "https://github.com/aquasecurity/tracee/blob/932ca4485fd881b11acc8e16d7002e2dde8f4998/detectors/sched_debug_recon.go"
+      },
+      "tested_at": "2026-09-21T10:53:02.212319+00:00",
+      "seconds": 23.7,
+      "transport": "archive"
+    },
+    "zeek": {
+      "status": "passed",
+      "repo": "zeek/zeek",
+      "adapter": "code",
+      "patterns": [
+        "scripts/policy/*.zeek"
+      ],
+      "import": {
+        "source_id": "zeek",
+        "status": "indexed",
+        "count": 157,
+        "candidate_files": 157,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "7061894b1a266c052acafa307dfeeb35acd73b45",
+        "last_success": "2026-09-21T10:53:17.127423+00:00",
+        "last_attempt": "2026-09-21T10:53:17.127438+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 157,
+        "fts_records": 157,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "c39f802a1edd54b7704e8644226f69d7b0fbe0411fd16b97ffb52d9d4af008b3",
+        "sample_url": "https://github.com/zeek/zeek/blob/7061894b1a266c052acafa307dfeeb35acd73b45/scripts/policy/frameworks/spicy/resource-usage.zeek"
+      },
+      "tested_at": "2026-09-21T10:53:17.262864+00:00",
+      "seconds": 23.87,
+      "transport": "archive"
+    },
+    "elitewolf": {
+      "status": "passed",
+      "repo": "nsacyber/ELITEWOLF",
+      "adapter": "snort",
+      "patterns": [
+        "ELITEWOLF_SNORT_*.txt"
+      ],
+      "import": {
+        "source_id": "elitewolf",
+        "status": "indexed",
+        "count": 52,
+        "candidate_files": 4,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 1,
+        "skipped_file_examples": [
+          "ELITEWOLF_SNORT_README.txt"
+        ],
+        "commit": "f0c4c951ef4b8233015259fe5af7c71355c04c4a",
+        "last_success": "2026-09-21T10:53:26.344194+00:00",
+        "last_attempt": "2026-09-21T10:53:26.344208+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 52,
+        "fts_records": 52,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "9377aeda1db8ff9d781138a3328e97fc8913aab51aaf0e164f37701d31a71cd2",
+        "sample_url": "https://github.com/nsacyber/ELITEWOLF/blob/f0c4c951ef4b8233015259fe5af7c71355c04c4a/ELITEWOLF_SNORT_SchweitzerEngineeringLaboratories.txt"
+      },
+      "tested_at": "2026-09-21T10:53:26.421454+00:00",
+      "seconds": 24.2,
+      "transport": "archive"
+    },
+    "wazuh": {
+      "status": "passed",
+      "repo": "wazuh/wazuh",
+      "adapter": "wazuh",
+      "patterns": [
+        "ruleset/rules/*.xml"
+      ],
+      "import": {
+        "source_id": "wazuh",
+        "status": "indexed",
+        "count": 4512,
+        "candidate_files": 168,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "a42268a27c555d9348d5598fb8751eaf4c8e9024",
+        "last_success": "2026-09-21T11:13:33.248609+00:00",
+        "last_attempt": "2026-09-21T11:13:33.248623+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 4512,
+        "fts_records": 4512,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "b49515bb427b39065d5f448c49611c8b10d500123d208b2247270cc6db190f24",
+        "sample_url": "https://github.com/wazuh/wazuh/blob/a42268a27c555d9348d5598fb8751eaf4c8e9024/ruleset/rules/0560-docker_integration_rules.xml"
+      },
+      "tested_at": "2026-09-21T11:13:33.834611+00:00",
+      "seconds": 33.39,
+      "transport": "archive"
+    },
+    "signature-base": {
+      "status": "passed",
+      "repo": "Neo23x0/signature-base",
+      "adapter": "yara",
+      "patterns": [
+        "yara/*.yar",
+        "yara/*.yara"
+      ],
+      "import": {
+        "source_id": "signature-base",
+        "status": "indexed",
+        "count": 748,
+        "candidate_files": 751,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 3,
+        "skipped_file_examples": [
+          "yara/gen_faked_versions.yar",
+          "yara/gen_regsrv32_issue.yar",
+          "yara/gen_thumbs_cloaking.yar"
+        ],
+        "commit": "94a1c48d7ab499879287ff611dfe7f9c56376030",
+        "last_success": "2026-09-21T10:53:48.299749+00:00",
+        "last_attempt": "2026-09-21T10:53:48.299763+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 748,
+        "fts_records": 748,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "39ef0fe7991354f5461c306f4ed755a464d8d413ab88e04d9d0894dd1ccd91bb",
+        "sample_url": "https://github.com/Neo23x0/signature-base/blob/94a1c48d7ab499879287ff611dfe7f9c56376030/yara/crime_mal_nitol.yar"
+      },
+      "tested_at": "2026-09-21T10:53:49.150975+00:00",
+      "seconds": 32.78,
+      "transport": "archive"
+    },
+    "mandiant-countermeasures": {
+      "status": "passed",
+      "repo": "mandiant/red_team_tool_countermeasures",
+      "adapter": "yara",
+      "patterns": [
+        "rules/*.yar",
+        "rules/*.yara"
+      ],
+      "import": {
+        "source_id": "mandiant-countermeasures",
+        "status": "indexed",
+        "count": 172,
+        "candidate_files": 172,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "3561b71724dbfa3e2bb78106aaa2d7f8b892c43b",
+        "last_success": "2026-09-21T10:53:47.245470+00:00",
+        "last_attempt": "2026-09-21T10:53:47.245484+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 172,
+        "fts_records": 172,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "b651ff8194c47616858ea52575c7dbb5fd41ac6048a7ce01eef7ade7163c3acf",
+        "sample_url": "https://github.com/mandiant/red_team_tool_countermeasures/blob/3561b71724dbfa3e2bb78106aaa2d7f8b892c43b/rules/REDFLARE/production/yara/APT_Keylogger_Win64_REDFLARE_1.yar"
+      },
+      "tested_at": "2026-09-21T10:53:47.343360+00:00",
+      "seconds": 20.92,
+      "transport": "archive"
+    },
+    "reversinglabs": {
+      "status": "passed",
+      "repo": "reversinglabs/reversinglabs-yara-rules",
+      "adapter": "yara",
+      "patterns": [
+        "*.yar",
+        "*.yara"
+      ],
+      "import": {
+        "source_id": "reversinglabs",
+        "status": "indexed",
+        "count": 310,
+        "candidate_files": 310,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "e0a0be54aa1e11ccfd6854e4f19e9476f328fd84",
+        "last_success": "2026-09-21T10:53:48.531372+00:00",
+        "last_attempt": "2026-09-21T10:53:48.531386+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 310,
+        "fts_records": 310,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "93e3bb2db8604b8db1a2f15556801568d5f7159ffee01c15b815861fd4ef5d0c",
+        "sample_url": "https://github.com/reversinglabs/reversinglabs-yara-rules/blob/e0a0be54aa1e11ccfd6854e4f19e9476f328fd84/yara/ransomware/Win32.Ransomware.GusCrypter.yara"
+      },
+      "tested_at": "2026-09-21T10:53:49.194490+00:00",
+      "seconds": 31.93,
+      "transport": "archive"
+    },
+    "capa": {
+      "status": "passed",
+      "repo": "mandiant/capa-rules",
+      "adapter": "capa",
+      "patterns": [
+        "*.yml",
+        "*.yaml"
+      ],
+      "import": {
+        "source_id": "capa",
+        "status": "indexed",
+        "count": 1054,
+        "candidate_files": 1057,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 3,
+        "skipped_file_examples": [
+          ".github/workflows/release.yml",
+          ".github/workflows/sync.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "commit": "805f9eaccfb6a4e1ddffc809d71d1e2b5ccc15e5",
+        "last_success": "2026-09-21T10:54:16.901754+00:00",
+        "last_attempt": "2026-09-21T10:54:16.901769+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 1054,
+        "fts_records": 1054,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "09c1dc936303944dad265c8e813880a553f39e9371d8ea998e1793006b50fb8d",
+        "sample_url": "https://github.com/mandiant/capa-rules/blob/805f9eaccfb6a4e1ddffc809d71d1e2b5ccc15e5/host-interaction/session/get-user-security-identifier.yml"
+      },
+      "tested_at": "2026-09-21T10:54:17.200235+00:00",
+      "seconds": 29.86,
+      "transport": "archive"
+    },
+    "joe-security": {
+      "status": "passed",
+      "repo": "joesecurity/sigma-rules",
+      "adapter": "sigma",
+      "patterns": [
+        "*.yml",
+        "*.yaml"
+      ],
+      "import": {
+        "source_id": "joe-security",
+        "status": "indexed with warnings",
+        "count": 119,
+        "candidate_files": 119,
+        "warning_count": 7,
+        "parse_warnings": [
+          {
+            "path": "rules/koadicpostexploitationrootkit.yml",
+            "error": "found undefined alias 'chcp'\n  in \"<unicode string>\", line 18, column 15:\n                - *chcp 437 & schtasks /query /tn  ... \n                  ^"
+          },
+          {
+            "path": "rules/powershelldownloadingfilefromurlshortenersite.yml",
+            "error": "while scanning an alias\n  in \"<unicode string>\", line 33, column 16:\n                - '*powershell*net.web*https://bitly.*\n                   ^\nexpected alphabetic or numeric character, but found '*'\n  in \"<unicode string>\", line 33, column 27:\n                - '*powershell*net.web*https://bitly.*\n                              ^"
+          },
+          {
+            "path": "rules/powershelllaunchregsvr32.yml",
+            "error": "while scanning an alias\n  in \"<unicode string>\", line 18, column 15:\n                - *powershell*regsvr32*\n                  ^\nexpected alphabetic or numeric character, but found '*'\n  in \"<unicode string>\", line 18, column 26:\n                - *powershell*regsvr32*\n                             ^"
+          },
+          {
+            "path": "rules/powershellsleepandlaunchexecutable.yml",
+            "error": "found undefined alias 'powershell'\n  in \"<unicode string>\", line 18, column 15:\n                - *powershell -c sleep -s *;saps * ... \n                  ^"
+          },
+          {
+            "path": "rules/registerdllwithspoofedextension.yml",
+            "error": "while scanning an alias\n  in \"<unicode string>\", line 20, column 16:\n                - '*regsvr32*\\\\*.png*\n                   ^\nexpected alphabetic or numeric character, but found '*'\n  in \"<unicode string>\", line 20, column 25:\n                - '*regsvr32*\\\\*.png*\n                            ^"
+          },
+          {
+            "path": "rules/shedulehiddenpowershellscript.yml",
+            "error": "while scanning an alias\n  in \"<unicode string>\", line 18, column 15:\n                - *schtasks.exe*/create*powershell ... \n                  ^\nexpected alphabetic or numeric character, but found '.'\n  in \"<unicode string>\", line 18, column 24:\n                - *schtasks.exe*/create*powershell*hidden*\n                           ^"
+          },
+          {
+            "path": "rules/wscriptdownloadfileintotemplocationfromwordpresssite.yml",
+            "error": "found undefined alias 'cmd'\n  in \"<unicode string>\", line 18, column 15:\n                - *cmd /c wscript.exe *\\AppData\\Lo ... \n                  ^"
+          }
+        ],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "cb91be06c8c95ce63aa9aa5006a7835678136a96",
+        "last_success": "2026-09-21T11:18:54.687887+00:00",
+        "last_attempt": "2026-09-21T11:18:54.687899+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 119,
+        "fts_records": 119,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "26902d844a88a91b7a23d60f6adb88a813c36bdac92f4b57a2f1258a154f553c",
+        "sample_url": "https://github.com/joesecurity/sigma-rules/blob/cb91be06c8c95ce63aa9aa5006a7835678136a96/rules/powershelldownloadfileandshellexecute.yml"
+      },
+      "tested_at": "2026-09-21T11:18:54.837482+00:00",
+      "seconds": 30.34,
+      "transport": "archive"
+    },
+    "dfir-yara": {
+      "status": "passed",
+      "repo": "The-DFIR-Report/Yara-Rules",
+      "adapter": "yara",
+      "patterns": [
+        "*.yar",
+        "*.yara"
+      ],
+      "import": {
+        "source_id": "dfir-yara",
+        "status": "indexed",
+        "count": 52,
+        "candidate_files": 53,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 1,
+        "skipped_file_examples": [
+          "index.yar"
+        ],
+        "commit": "9034e24193b38aad1fbc0912ace3683eb5728a92",
+        "last_success": "2026-09-21T10:54:14.609819+00:00",
+        "last_attempt": "2026-09-21T10:54:14.609831+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 52,
+        "fts_records": 52,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "465104477a1f2240f2aa3d391786e6ec0ea6274b6bbd6ebdc917c29726d1ccb2",
+        "sample_url": "https://github.com/The-DFIR-Report/Yara-Rules/blob/9034e24193b38aad1fbc0912ace3683eb5728a92/24952/24952.yar"
+      },
+      "tested_at": "2026-09-21T10:54:14.710187+00:00",
+      "seconds": 25.51,
+      "transport": "archive"
+    }
+  }
+}

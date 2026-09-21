@@ -1,0 +1,139 @@
+{
+  "tested_at": "2026-09-21T10:52:06.570852+00:00",
+  "platform": "linux",
+  "python": "3.12.14",
+  "sources": {
+    "gcp-analytics": {
+      "status": "passed",
+      "repo": "GoogleCloudPlatform/security-analytics",
+      "adapter": "yaral",
+      "patterns": [
+        "backends/chronicle/yaral/*.yaral"
+      ],
+      "import": {
+        "source_id": "gcp-analytics",
+        "status": "indexed",
+        "count": 13,
+        "candidate_files": 13,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "2dd8565557e043e25d16df8f7743b9e69374d6f3",
+        "last_success": "2026-09-21T10:52:06.556941+00:00",
+        "last_attempt": "2026-09-21T10:52:06.556952+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 13,
+        "fts_records": 13,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "faf6f8672eda5b5df9c5ddc10a692f096d7944777e5039379d33021a12db5fbb",
+        "sample_url": "https://github.com/GoogleCloudPlatform/security-analytics/blob/2dd8565557e043e25d16df8f7743b9e69374d6f3/backends/chronicle/yaral/3_12_firewall_rules_modified_or_deleted.yaral"
+      },
+      "tested_at": "2026-09-21T10:52:06.570833+00:00",
+      "seconds": 17.39,
+      "transport": "git"
+    },
+    "sigma": {
+      "status": "passed",
+      "repo": "SigmaHQ/sigma",
+      "adapter": "sigma",
+      "patterns": [
+        "rules/*.yml",
+        "rules-emerging-threats/*.yml",
+        "rules-threat-hunting/*.yml",
+        "rules-compliance/*.yml",
+        "rules-correlation/*.yml"
+      ],
+      "import": {
+        "source_id": "sigma",
+        "status": "indexed",
+        "count": 3760,
+        "candidate_files": 3760,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 0,
+        "skipped_file_examples": [],
+        "commit": "2e8fd89f82d9104c1b30321a307254ddeea17de2",
+        "last_success": "2026-09-21T10:49:37.174727+00:00",
+        "last_attempt": "2026-09-21T10:49:37.174740+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 3760,
+        "fts_records": 3760,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "ATT&CK retrieval",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "2d37bd8c476b6f0e810d3d27778aa7f208dcdf51b64884e20b8110fe05628396",
+        "sample_url": "https://github.com/SigmaHQ/sigma/blob/2e8fd89f82d9104c1b30321a307254ddeea17de2/rules/windows/process_creation/proc_creation_win_explorer_folder_shortcut_via_shell_binary.yml"
+      },
+      "tested_at": "2026-09-21T10:49:38.098645+00:00",
+      "seconds": 25.41,
+      "transport": "git"
+    },
+    "elitewolf": {
+      "status": "passed",
+      "repo": "nsacyber/ELITEWOLF",
+      "adapter": "snort",
+      "patterns": [
+        "ELITEWOLF_SNORT_*.txt"
+      ],
+      "import": {
+        "source_id": "elitewolf",
+        "status": "indexed",
+        "count": 52,
+        "candidate_files": 4,
+        "warning_count": 0,
+        "parse_warnings": [],
+        "skipped_file_count": 1,
+        "skipped_file_examples": [
+          "ELITEWOLF_SNORT_README.txt"
+        ],
+        "commit": "f0c4c951ef4b8233015259fe5af7c71355c04c4a",
+        "last_success": "2026-09-21T10:49:43.566823+00:00",
+        "last_attempt": "2026-09-21T10:49:43.566837+00:00",
+        "last_error": null,
+        "notice": "Complete for configured paths and supported formats; not a claim of full vendor coverage."
+      },
+      "verification": {
+        "records_checked": 52,
+        "fts_records": 52,
+        "checks": [
+          "counts",
+          "nonempty content",
+          "all record provenance",
+          "source filter",
+          "detail",
+          "keyword retrieval",
+          "no ATT&CK tags",
+          "CSV/JSON export"
+        ],
+        "sample_uid": "9377aeda1db8ff9d781138a3328e97fc8913aab51aaf0e164f37701d31a71cd2",
+        "sample_url": "https://github.com/nsacyber/ELITEWOLF/blob/f0c4c951ef4b8233015259fe5af7c71355c04c4a/ELITEWOLF_SNORT_SchweitzerEngineeringLaboratories.txt"
+      },
+      "tested_at": "2026-09-21T10:49:43.578154+00:00",
+      "seconds": 15.5,
+      "transport": "git"
+    }
+  }
+}

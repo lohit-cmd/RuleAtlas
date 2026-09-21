@@ -1,0 +1,123 @@
+{
+  "sourceChecks": [
+    {
+      "source": "sigma",
+      "records": 3760
+    },
+    {
+      "source": "splunk",
+      "records": 2169
+    },
+    {
+      "source": "elastic",
+      "records": 2247
+    },
+    {
+      "source": "sentinel",
+      "records": 5023
+    },
+    {
+      "source": "chronicle",
+      "records": 917
+    },
+    {
+      "source": "gcp-analytics",
+      "records": 13
+    },
+    {
+      "source": "panther",
+      "records": 1024
+    },
+    {
+      "source": "sekoia",
+      "records": 30
+    },
+    {
+      "source": "sublime",
+      "records": 1284
+    },
+    {
+      "source": "ctid-cloud",
+      "records": 13
+    },
+    {
+      "source": "bertjan",
+      "records": 840
+    },
+    {
+      "source": "reprise99",
+      "records": 562
+    },
+    {
+      "source": "hayabusa",
+      "records": 4987
+    },
+    {
+      "source": "elastic-endpoint",
+      "records": 1327
+    },
+    {
+      "source": "falco",
+      "records": 95
+    },
+    {
+      "source": "tracee",
+      "records": 117
+    },
+    {
+      "source": "wazuh",
+      "records": 4512
+    },
+    {
+      "source": "zeek",
+      "records": 157
+    },
+    {
+      "source": "elitewolf",
+      "records": 52
+    },
+    {
+      "source": "signature-base",
+      "records": 748
+    },
+    {
+      "source": "reversinglabs",
+      "records": 310
+    },
+    {
+      "source": "mandiant-countermeasures",
+      "records": 172
+    },
+    {
+      "source": "capa",
+      "records": 1054
+    },
+    {
+      "source": "joe-security",
+      "records": 119
+    },
+    {
+      "source": "dfir-yara",
+      "records": 52
+    }
+  ],
+  "checks": [
+    "25 live source filters and original logic",
+    "25 exact-revision links",
+    "Splunk authored technique retrieval",
+    "pagination",
+    "full filtered JSON export",
+    "upstream HTML rendered as text",
+    "unsafe links not clickable",
+    "stale detail response ignored",
+    "parse warnings visible",
+    "live ATT&CK form import",
+    "discovery rendering with stubbed response",
+    "mobile source catalog",
+    "no browser runtime errors"
+  ],
+  "dimensions": {
+    "width": 430,
+    "scroll": 430
+  }
+}
